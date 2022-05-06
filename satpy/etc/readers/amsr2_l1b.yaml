@@ -12,175 +12,162 @@ datasets:
     # FIXME: These are actually GHz not micrometers
     wavelength: [10.7, 10.7, 10.7]
     calibration: brightness_temperature
-    resolution: 10000
     standard_name: toa_brightness_temperature
     polarization: V
     file_type: amsr2_l1b
     file_key: "Brightness Temperature (10.7GHz,V)"
     fill_value: 65535
     coordinates:
-        - longitude
-        - latitude
+        - longitude_10.7
+        - latitude_10.7
 
   btemp_10.7h:
     name: 'btemp_10.7h'
     wavelength: [10.7, 10.7, 10.7]
     calibration: brightness_temperature
-    resolution: 10000
     standard_name: toa_brightness_temperature
     polarization: H
     file_type: amsr2_l1b
     file_key: "Brightness Temperature (10.7GHz,H)"
     fill_value: 65535
     coordinates:
-        - longitude
-        - latitude
+        - longitude_10.7
+        - latitude_10.7
 
   btemp_6.9v:
     name: 'btemp_6.9v'
     wavelength: [6.9, 6.9, 6.9]
     calibration: brightness_temperature
-    resolution: 10000
     standard_name: toa_brightness_temperature
     polarization: V
     file_type: amsr2_l1b
     file_key: "Brightness Temperature (6.9GHz,V)"
     fill_value: 65535
     coordinates:
-        - longitude
-        - latitude
+        - longitude_6.9
+        - latitude_6.9
 
   btemp_6.9h:
     name: 'btemp_6.9h'
     wavelength: [6.9, 6.9, 6.9]
     calibration: brightness_temperature
-    resolution: 10000
     standard_name: toa_brightness_temperature
     polarization: H
     file_type: amsr2_l1b
     file_key: "Brightness Temperature (6.9GHz,H)"
     fill_value: 65535
     coordinates:
-        - longitude
-        - latitude
+        - longitude_6.9
+        - latitude_6.9
 
   btemp_7.3v:
     name: 'btemp_7.3v'
     wavelength: [7.3, 7.3, 7.3]
     calibration: brightness_temperature
-    resolution: 10000
     standard_name: toa_brightness_temperature
     polarization: V
     file_type: amsr2_l1b
     file_key: "Brightness Temperature (7.3GHz,V)"
     fill_value: 65535
     coordinates:
-        - longitude
-        - latitude
+        - longitude_7.3
+        - latitude_7.3
 
   btemp_7.3h:
     name: 'btemp_7.3h'
     wavelength: [7.3, 7.3, 7.3]
     calibration: brightness_temperature
-    resolution: 10000
     standard_name: toa_brightness_temperature
     polarization: H
     file_type: amsr2_l1b
     file_key: "Brightness Temperature (7.3GHz,H)"
     fill_value: 65535
     coordinates:
-        - longitude
-        - latitude
+        - longitude_7.3
+        - latitude_7.3
 
   btemp_18.7v:
     name: 'btemp_18.7v'
     wavelength: [18.7, 18.7, 18.7]
     calibration: brightness_temperature
-    resolution: 10000
     standard_name: toa_brightness_temperature
     polarization: V
     file_type: amsr2_l1b
     file_key: "Brightness Temperature (18.7GHz,V)"
     fill_value: 65535
     coordinates:
-        - longitude
-        - latitude
+        - longitude_18.7
+        - latitude_18.7
 
   btemp_18.7h:
     name: 'btemp_18.7h'
     wavelength: [18.7, 18.7, 18.7]
     calibration: brightness_temperature
-    resolution: 10000
     standard_name: toa_brightness_temperature
     polarization: H
     file_type: amsr2_l1b
     file_key: "Brightness Temperature (18.7GHz,H)"
     fill_value: 65535
     coordinates:
-        - longitude
-        - latitude
+        - longitude_18.7
+        - latitude_18.7
 
   btemp_23.8v:
     name: 'btemp_23.8v'
     wavelength: [23.8, 23.8, 23.8]
     calibration: brightness_temperature
-    resolution: 10000
     standard_name: toa_brightness_temperature
     polarization: V
     file_type: amsr2_l1b
     file_key: "Brightness Temperature (23.8GHz,V)"
     fill_value: 65535
     coordinates:
-        - longitude
-        - latitude
+        - longitude_23.8
+        - latitude_23.8
 
   btemp_23.8h:
     name: 'btemp_23.8h'
     wavelength: [23.8, 23.8, 23.8]
     calibration: brightness_temperature
-    resolution: 10000
     standard_name: toa_brightness_temperature
     polarization: H
     file_type: amsr2_l1b
     file_key: "Brightness Temperature (23.8GHz,H)"
     fill_value: 65535
     coordinates:
-        - longitude
-        - latitude
+        - longitude_23.8
+        - latitude_23.8
 
   btemp_36.5v:
     name: 'btemp_36.5v'
     wavelength: [36.5, 36.5, 36.5]
     calibration: brightness_temperature
-    resolution: 10000
     standard_name: toa_brightness_temperature
     polarization: V
     file_type: amsr2_l1b
     file_key: "Brightness Temperature (36.5GHz,V)"
     fill_value: 65535
     coordinates:
-        - longitude
-        - latitude
+        - longitude_36.5
+        - latitude_36.5
 
   btemp_36.5h:
     name: 'btemp_36.5h'
     wavelength: [36.5, 36.5, 36.5]
     calibration: brightness_temperature
-    resolution: 10000
     standard_name: toa_brightness_temperature
     polarization: H
     file_type: amsr2_l1b
     file_key: "Brightness Temperature (36.5GHz,H)"
     fill_value: 65535
     coordinates:
-        - longitude
-        - latitude
+        - longitude_36.5
+        - latitude_36.5
 
   btemp_89.0av:
     name: 'btemp_89.0av'
     wavelength: [89.0, 89.0, 89.0]
     calibration: brightness_temperature
-    resolution: 5000
     navigation: amsr2_5km_a
     standard_name: toa_brightness_temperature
     polarization: V
@@ -188,14 +175,13 @@ datasets:
     file_key: "Brightness Temperature (89.0GHz-A,V)"
     fill_value: 65535
     coordinates:
-        - longitude_a
-        - latitude_a
+        - longitude_89.0a
+        - latitude_89.0a
 
   btemp_89.0ah:
     name: 'btemp_89.0ah'
     wavelength: [89.0, 89.0, 89.0]
     calibration: brightness_temperature
-    resolution: 5000
     navigation: amsr2_5km_a
     standard_name: toa_brightness_temperature
     polarization: H
@@ -203,14 +189,13 @@ datasets:
     file_key: "Brightness Temperature (89.0GHz-A,H)"
     fill_value: 65535
     coordinates:
-        - longitude_a
-        - latitude_a
+        - longitude_89.0a
+        - latitude_89.0a
 
   btemp_89.0bv:
     name: 'btemp_89.0bv'
     wavelength: [89.0, 89.0, 89.0]
     calibration: brightness_temperature
-    resolution: 5000
     navigation: amsr2_5km_b
     standard_name: toa_brightness_temperature
     polarization: V
@@ -218,14 +203,13 @@ datasets:
     file_key: "Brightness Temperature (89.0GHz-B,V)"
     fill_value: 65535
     coordinates:
-        - longitude_b
-        - latitude_b
+        - longitude_89.0b
+        - latitude_89.0b
 
   btemp_89.0bh:
     name: 'btemp_89.0bh'
     wavelength: [89.0, 89.0, 89.0]
     calibration: brightness_temperature
-    resolution: 5000
     navigation: amsr2_5km_b
     standard_name: toa_brightness_temperature
     polarization: H
@@ -233,12 +217,11 @@ datasets:
     file_key: "Brightness Temperature (89.0GHz-B,H)"
     fill_value: 65535
     coordinates:
-        - longitude_b
-        - latitude_b
+        - longitude_89.0b
+        - latitude_89.0b
 
-  latitude_5km_a:
-    name: latitude_a
-    resolution: 5000
+  latitude_10.7:
+    name: latitude_10.7
     file_type: amsr2_l1b
     standard_name: latitude
     polarization: [H, V]
@@ -246,9 +229,125 @@ datasets:
     file_key: 'Latitude of Observation Point for 89A'
     fill_value: -9999.0
 
-  latitude_5km_b:
-    name: latitude_b
-    resolution: 5000
+  longitude_10.7:
+    name: longitude_10.7
+    file_type: amsr2_l1b
+    standard_name: longitude
+    polarization: [H, V]
+    units: degree
+    file_key: 'Longitude of Observation Point for 89A'
+    fill_value: -9999.0
+
+  latitude_6.9:
+    name: latitude_6.9
+    file_type: amsr2_l1b
+    standard_name: latitude
+    polarization: [H, V]
+    units: degree
+    file_key: 'Latitude of Observation Point for 89A'
+    fill_value: -9999.0
+
+  longitude_6.9:
+    name: longitude_6.9
+    file_type: amsr2_l1b
+    standard_name: longitude
+    polarization: [H, V]
+    units: degree
+    file_key: 'Longitude of Observation Point for 89A'
+    fill_value: -9999.0
+
+  latitude_7.3:
+    name: latitude_7.3
+    file_type: amsr2_l1b
+    standard_name: latitude
+    polarization: [H, V]
+    units: degree
+    file_key: 'Latitude of Observation Point for 89A'
+    fill_value: -9999.0
+
+  longitude_7.3:
+    name: longitude_7.3
+    file_type: amsr2_l1b
+    standard_name: longitude
+    polarization: [H, V]
+    units: degree
+    file_key: 'Longitude of Observation Point for 89A'
+    fill_value: -9999.0
+
+  latitude_18.7:
+    name: latitude_18.7
+    file_type: amsr2_l1b
+    standard_name: latitude
+    polarization: [H, V]
+    units: degree
+    file_key: 'Latitude of Observation Point for 89A'
+    fill_value: -9999.0
+
+  longitude_18.7:
+    name: longitude_18.7
+    file_type: amsr2_l1b
+    standard_name: longitude
+    polarization: [H, V]
+    units: degree
+    file_key: 'Longitude of Observation Point for 89A'
+    fill_value: -9999.0
+
+  latitude_23.8:
+    name: latitude_23.8
+    file_type: amsr2_l1b
+    standard_name: latitude
+    polarization: [H, V]
+    units: degree
+    file_key: 'Latitude of Observation Point for 89A'
+    fill_value: -9999.0
+
+  longitude_23.8:
+    name: longitude_23.8
+    file_type: amsr2_l1b
+    standard_name: longitude
+    polarization: [H, V]
+    units: degree
+    file_key: 'Longitude of Observation Point for 89A'
+    fill_value: -9999.0
+
+  latitude_36.5:
+    name: latitude_36.5
+    file_type: amsr2_l1b
+    standard_name: latitude
+    polarization: [H, V]
+    units: degree
+    file_key: 'Latitude of Observation Point for 89A'
+    fill_value: -9999.0
+
+  longitude_36.5:
+    name: longitude_36.5 
+    file_type: amsr2_l1b
+    standard_name: longitude
+    polarization: [H, V]
+    units: degree
+    file_key: 'Longitude of Observation Point for 89A'
+    fill_value: -9999.0
+
+  latitude_89.0a:
+    name: latitude_89.0a
+    file_type: amsr2_l1b
+    standard_name: latitude
+    polarization: [H, V]
+    units: degree
+    file_key: 'Latitude of Observation Point for 89A'
+    fill_value: -9999.0
+
+  longitude_89.0a:
+    name: longitude_89.0a 
+    file_type: amsr2_l1b
+    standard_name: longitude
+    polarization: [H, V]
+    units: degree
+    file_key: 'Longitude of Observation Point for 89A'
+    fill_value: -9999.0
+
+  latitude_89.0b:
+    name: latitude_89.0b
     file_type: amsr2_l1b
     standard_name: latitude
     polarization: [H, V]
@@ -256,46 +355,14 @@ datasets:
     file_key: 'Latitude of Observation Point for 89B'
     fill_value: -9999.0
 
-  longitude_5km_a:
-    name: longitude_a
-    resolution: 5000
-    file_type: amsr2_l1b
-    standard_name: longitude
-    polarization: [H, V]
-    units: degree
-    file_key: 'Longitude of Observation Point for 89A'
-    fill_value: -9999.0
-
-  longitude_5km_b:
-    name: longitude_b
-    resolution: 5000
+  longitude_89.0b:
+    name: longitude_89.0b 
     file_type: amsr2_l1b
     standard_name: longitude
     polarization: [H, V]
     units: degree
     file_key: 'Longitude of Observation Point for 89B'
     fill_value: -9999.0
-
-  latitude_10km:
-    name: latitude
-    resolution: 10000
-    file_type: amsr2_l1b
-    standard_name: latitude
-    polarization: [H, V]
-    units: degree
-    file_key: 'Latitude of Observation Point for 89A'
-    fill_value: -9999.0
-
-  longitude_10km:
-    name: longitude
-    resolution: 10000
-    file_type: amsr2_l1b
-    standard_name: longitude
-    polarization: [H, V]
-    units: degree
-    file_key: 'Longitude of Observation Point for 89A'
-    fill_value: -9999.0
-
 
 file_types:
   amsr2_l1b:
